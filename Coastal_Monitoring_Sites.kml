@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Coastal_Monitoring_Sites.kmz</name>
+	<open>1</open>
 	<Schema name="Coastal_Monitoring_Sites" id="S_Coastal_Monitoring_Sites_DSSDDDSDDDSDDDDSDDDDSSSSS">
 		<SimpleField type="double" name="Site_ID"><displayName>&lt;b&gt;Site_ID&lt;/b&gt;</displayName>
 </SimpleField>
@@ -56,11 +57,11 @@
 	</Schema>
 	<Style id="normPointStyle">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
@@ -91,14 +92,16 @@
   <tr><td><b>Link</b></td><td>$[Coastal_Monitoring_Sites/Link]</td></tr>
 </table>]]></text>
 		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="hlightPointStyle">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 			</Icon>
-			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
@@ -129,6 +132,8 @@
   <tr><td><b>Link</b></td><td>$[Coastal_Monitoring_Sites/Link]</td></tr>
 </table>]]></text>
 		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<StyleMap id="pointStyleMap">
 		<Pair>
